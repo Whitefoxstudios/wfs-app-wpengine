@@ -1,6 +1,8 @@
 <?php
 namespace WFSAPP;
 
+require_once('wfs-app-wpengine-init.php');
+
 class WPENGINE {
   private $user;
   private $pass;
